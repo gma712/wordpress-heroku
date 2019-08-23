@@ -131,8 +131,6 @@ define('DISALLOW_FILE_EDIT', true);
 define('DISALLOW_FILE_MODS', true);
 define('DISABLE_WP_CRON', env('DISABLE_WP_CRON') ?: false);
 
-define('AS3CF_AWS_ACCESS_KEY_ID', getenv('AWS_ACCESS_KEY'));
-define('AS3CF_AWS_SECRET_ACCESS_KEY', getenv('AWS_SECRET_KEY'));
 
 
 // Enforce SSL for Login/Admin in production
